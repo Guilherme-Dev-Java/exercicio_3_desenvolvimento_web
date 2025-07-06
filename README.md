@@ -2,6 +2,8 @@
 
 Este repositório contém as soluções da **Lista de Exercícios 3** da disciplina de Desenvolvimento Web Básico. Os exercícios foram desenvolvidos com foco em **HTML5**, **CSS3** e conceitos essenciais de **design responsivo**, seguindo boas práticas de estruturação e estilização semântica.
 
+Acesse o repositório completo aqui: [Guilherme-Dev-Java/exercicio\_3\_desenvolvimento\_web](https://github.com/Guilherme-Dev-Java/exercicio_3_desenvolvimento_web)
+
 ## 📚 Conteúdo dos Exercícios
 
 ### 1. `index.html` – Estrutura Semântica
@@ -51,21 +53,36 @@ Este repositório contém as soluções da **Lista de Exercícios 3** da discipl
 * Media Queries
 * JavaScript (para o menu hamburger)
 
+## 📁 Estrutura do Projeto
+
+```
+/exercicios-web-basico/
+│
+├── index.html
+├── listas.html
+├── feedback.html
+├── galeria.html
+├── menu.html
+├── styles.css
+├── menu.css
+└── /imagens/
+    └── *.jpg / *.png (usadas na galeria)
+```
 
 ## 🚀 Como Executar
 
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/exercicios-web-basico.git
-   cd exercicios-web-basico
+   git clone https://github.com/Guilherme-Dev-Java/exercicio_3_desenvolvimento_web.git
+   cd exercicio_3_desenvolvimento_web
    ```
 
 2. Abra os arquivos `.html` no seu navegador preferido ou utilize uma extensão como **Live Server** no VS Code.
 
 ## ✍️ Autor
 
-Desenvolvido por **Carlos Guilherme Alves Agripino**.
+Desenvolvido por **Carlos Guilherme Alves Agripino** – apaixonado por desenvolvimento web.
 
 ## 📜 Licença
 
