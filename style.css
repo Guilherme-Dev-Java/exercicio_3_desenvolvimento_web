@@ -183,23 +183,6 @@ h2 {
   color: var(--cinza-escuro);
 }
 
-/* === Classes especiais === */
-.destaque {
-  font-style: italic;
-  background-color: #eafaf1;
-  border-left: 4px solid var(--cor-primaria);
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  display: inline-block;
-}
-
-
-#importante {
-  border-top: 5px solid var(--cor-erro);
-  padding-top: 0.5rem;
-  margin-top: 1rem;
-}
-
 /* === Navegação === */
 .nav {
   position: relative;
@@ -350,6 +333,38 @@ footer {
   padding: 1rem 0;
   color: var(--cinza-escuro);
   font-size: 0.9rem;
+}
+
+.lista-hobbies,
+.lista-receita,
+.links-uteis {
+  background-color: var(--branco);
+  border: 1px solid var(--cinza-medio);
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.lista-hobbies ul,
+.links-uteis ul,
+.lista-receita ol {
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.lista-receita ol {
+  list-style-type: decimal-leading-zero;
+}
+
+a {
+  color: var(--cor-primaria);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 600px) {
