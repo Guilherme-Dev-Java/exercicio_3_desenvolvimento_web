@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Minha página</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carlos Guilherme | Programador dedicado à excelência</title>
+  <meta name="description" content="Portfólio de Carlos Guilherme, programador focado em excelência, inovação e desenvolvimento pessoal e de equipe." />
+  <link rel="stylesheet" href="style.css" />
+
+  <script defer>
+    function toggleMenu() {
+      const navList = document.querySelector(".nav ul");
+      navList.classList.toggle("active");
+    }
+  </script>
 </head>
 <body>
   <header>
     <h1>Bem-vindo à minha página</h1>
-    <p>Sou um programador comprometido com a excelência e inovação no mercado.</p>  
+    <p>Sou um programador comprometido com a excelência e inovação no mercado.</p>
+
+    <nav class="nav" aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="listas.html">Listas</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="galeriaDeImagens.html">Galeria</a></li>
+      </ul>
+      <div class="hamburger" role="button" aria-label="Abrir menu" tabindex="0" onclick="toggleMenu()" onkeydown="if(event.key==='Enter'){ toggleMenu(); }">&#9776;</div>
+    </nav>
   </header>
 
   <main>
@@ -20,13 +38,12 @@
 
     <section>
       <h2>Visão</h2>
-      <p>Ser referência como pessoa e programador em qualquer instituição que eu passe, me dedicando ao máximo e ajudando a pessoas se desenvolverem dentro da equipe sempre que possivel.</p>
+      <p>Ser referência como pessoa e programador em qualquer instituição que eu passe, me dedicando ao máximo e ajudando as pessoas a se desenvolverem dentro da equipe sempre que possível.</p>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Carlos Guilherme. Todos os direitos reservados.</p>
   </footer>
-
-  </body>
+</body>
 </html>
